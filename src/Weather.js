@@ -24,7 +24,7 @@ function Weather(){
                     <img src = "https://ssl.gstatic.com/onebox/weather/64/sunny.png" alt = "Sunny"/>
                     6°C
                 </div>
-                <div classNme = "col-6">
+                <div className = "col-6">
                     <ul>
                         <li>
                             Precipitation: 15%

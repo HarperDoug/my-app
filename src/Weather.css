@@ -1,3 +1,56 @@
 .Weather {
-    background-color: pink;
+    background-color: white;
+    max-width: 600px;
+    margin: 30px;
+    padding: 16px;
+    font-family: "Poppins", serif;
+    border-radius: 15px;
+    border: 1px solid #dadde1;
+  }
+
+.Weather h1 {
+    color: #878787;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 29px;
+
 }
+
+.Weather ul {
+    margin: 0;
+    padding: 0;
+}
+
+.Weather li {
+    color: #878787;
+    display: block;
+    font-size: 16px;
+    font-weight: 100;
+    height: 18px;
+    line-height: 19px;
+    list-style: none;
+}
+  .search-form-button {
+    font-size: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    color: black;
+    font-family: "Poppins", serif;
+  }
+  
+  .form-control {
+    background-color: #f9f7fe;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px 20px;
+    font-family: "Poppins", serif;
+  }
+
+  footer {
+    border-top: 1px solid #f9f7fe;
+    padding: 30px 0 0 0;
+    text-align: center;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
