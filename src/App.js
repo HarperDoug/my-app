@@ -42,9 +42,9 @@ function Weather() {
       </main>
       <footer>
         Built by{" "}
-        <a href="https://github.com/HarperDoug/weather-app-react" target="_blank" rel="noreferrer">Jessica Spies </a>
+        <a href="https://github.com/HarperDoug/my-app" target="_blank" rel="noreferrer">Jessica Spies </a>
         and website hosted on
-        <a href="https://jspies-weather-app.netlify.app/" target="_blank" rel="noreferrer"> Netlify</a>
+        <a href="https://whimsical-moonbeam-18ec59.netlify.app/" target="_blank" rel="noreferrer"> Netlify</a>
       </footer>
     </div>
   );
