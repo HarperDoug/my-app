@@ -59,12 +59,13 @@
     display: inline;
     line-height: 64px;
     font-size: 64px;
+    margin-left: 10px;
 }
 
-.Weather img {
+.Weather canvas {
     height: 64px;
     float: left;
-    margin: 10px right;
+    margin: 20px right;
     display: inline-block;
     width: 64px;
 }

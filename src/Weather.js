@@ -3,6 +3,7 @@ import WeatherInfo from "./WeatherInfo";
 import "./Weather.css";
 import axios from "axios";
 
+
 function Weather(props){
     const [city, setCity] = useState(props.defaultCity);
     const [weatherData, setWeatherData] = useState({ready: false});
@@ -16,7 +17,7 @@ function Weather(props){
             humidity: response.data.temperature.humidity,
             city: response.data.city,
             description: response.data.condition.description,
-            iconURL: response.data.condition.icon_url
+            icon: response.data.condition.icon
         });  
     }
     function handleSubmit(event) {
