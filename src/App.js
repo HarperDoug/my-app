@@ -4,6 +4,7 @@ import "./App.css";
 function Weather() {
   return (
     <div className="Weather">
+      <div className = "container">
       <header>
         <form className="search-form">
           <input
@@ -46,6 +47,7 @@ function Weather() {
         and website hosted on
         <a href="https://whimsical-moonbeam-18ec59.netlify.app/" target="_blank" rel="noreferrer"> Netlify</a>
       </footer>
+      </div>
     </div>
   );
 }
