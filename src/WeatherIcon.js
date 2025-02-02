@@ -1,7 +1,6 @@
 import React from "react";
 import ReactAnimatedWeather from 'react-animated-weather';
 
-
 function WeatherIcon(props) {
     const codeMapping = {
         "clear-sky-day":"CLEAR_DAY",
