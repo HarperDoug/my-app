@@ -3,6 +3,9 @@ import "./Weather.css";
 import axios from "axios";
 
 function Weather(){
+    let city = "London";
+    const apiKey = "5fftb729a03o1b248f0ff72a8832d43e";
+    let apiUrl =  `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}`;
     return(
         <div className = "Weather">
             <form className="search-form">
