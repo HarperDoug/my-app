@@ -4,12 +4,8 @@ import Weather from "./Weather.js";
 
 function App() {
   return (
-    <div className="Weather">
-      <header>
-      </header>
-      <main>
+    <div className="App">
         <Weather />
-      </main>
       <footer>
         Built by{" "}
         <a href="https://github.com/HarperDoug/my-app" target="_blank" rel="noreferrer">Jessica Spies </a>
