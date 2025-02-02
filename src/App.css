@@ -10,10 +10,3 @@
     color: rgba(0, 0, 0, 0.6);
     margin: 10px 0;
   }
-
-  .temperature {
-    font-weight: 400;
-    display: inline;
-    line-height: 56px;
-    size: 500px;
-}
