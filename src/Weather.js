@@ -10,8 +10,10 @@ function Weather(props){
     const [weatherData, setWeatherData] = useState({ready: false});
 
     function handleResponse(response){
+        console.log(response);
         setWeatherData({
             ready: true,
+            coordinates: response.data.coordinates,
             date: new Date(response.data.time * 1000),
             temperature: response.data.temperature.current,
             wind: response.data.wind.speed,
@@ -19,6 +21,7 @@ function Weather(props){
             city: response.data.city,
             description: response.data.condition.description,
             icon: response.data.condition.icon
+        
         });  
     }
     function handleSubmit(event) {
@@ -49,7 +52,7 @@ function Weather(props){
                     </div>
                 </form>
                 <WeatherInfo data = {weatherData} />
-                <WeatherForecast />
+                <WeatherForecast coordinates={weatherData.coordinates} />
 
             </div>
         );
